@@ -6,10 +6,10 @@ package com.example.android.soonami;
 
 public class Words {
     private String event;
-    private String date;
-    private String tsunamiAlert;
+    private long date;
+    private int tsunamiAlert;
 
-    public Words(String event, String date, String tsunamiAlert){
+    public Words(String event, long date, int tsunamiAlert){
         this.event = event;
         this.date = date;
         this.tsunamiAlert = tsunamiAlert;
@@ -19,11 +19,11 @@ public class Words {
         return event;
     }
 
-    public String getDate(){
+    public long getDate(){
         return date;
     }
 
-    public String getTsunamiAlert(){
+    public int getTsunamiAlert(){
         return tsunamiAlert;
     }
 }
