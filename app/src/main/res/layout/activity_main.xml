@@ -20,17 +20,22 @@
         android:id="@+id/eventFill_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="32dp"
         />
     <TextView
         android:id="@+id/date_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:text="Date"
         />
     <TextView
         android:id="@+id/dateFill_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="32dp"
         />
 
     <TextView
@@ -43,5 +48,7 @@
         android:id="@+id/tusnamiAlertFill_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:padding="32dp"
         />
 </LinearLayout>
